@@ -10,10 +10,20 @@
   transform: translate(-50%, -50%);
 }
 
-body {
-  background-color: #003459;
-  font-size: 20px;
-  color: #00a8e8;
+.child2 {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  font-size: 14;
 }
+
+body {
+  background: linear-gradient(to bottom, #0057B7 50%, #FFDD00 50%);
+  font-size: 24px;
+  color: #FFDD00;
+}
+
 
 /*# sourceMappingURL=main.css.map */
